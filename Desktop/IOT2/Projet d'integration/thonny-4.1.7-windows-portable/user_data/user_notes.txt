@@ -1,0 +1,5 @@
+Cette section est prévue pour vos notes de travail : instructions d’affectation, fragments de code, ce que vous voulez.
+
+Tout sera sauvegardé automatiquement et chargé lorsque vous ouvrirez Thonny la prochaine fois.
+
+N’hésitez pas à effacer ce texte pour faire de la place pour vos propres notes.

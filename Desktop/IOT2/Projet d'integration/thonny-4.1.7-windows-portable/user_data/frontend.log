@@ -1,0 +1,89 @@
+15:38:12.396 [MainThread] INFO    thonny: Thonny version: 4.1.7
+15:38:12.397 [MainThread] INFO    thonny: cwd: C:\WINDOWS\system32
+15:38:12.397 [MainThread] INFO    thonny: original argv: []
+15:38:12.397 [MainThread] INFO    thonny: sys.executable: C:\Users\LENOVO\Desktop\newtech-python\thonny-4.1.7-windows-portable\pythonw.exe
+15:38:12.397 [MainThread] INFO    thonny: sys.argv: ['C:\\Users\\LENOVO\\Desktop\\newtech-python\\thonny-4.1.7-windows-portable\\thonny.exe']
+15:38:12.397 [MainThread] INFO    thonny: sys.path: ['C:\\Users\\LENOVO\\Desktop\\newtech-python\\thonny-4.1.7-windows-portable\\python310.zip', 'C:\\Users\\LENOVO\\Desktop\\newtech-python\\thonny-4.1.7-windows-portable\\DLLs', 'C:\\Users\\LENOVO\\Desktop\\newtech-python\\thonny-4.1.7-windows-portable\\lib', 'C:\\Users\\LENOVO\\Desktop\\newtech-python\\thonny-4.1.7-windows-portable', 'C:\\Users\\LENOVO\\Desktop\\newtech-python\\thonny-4.1.7-windows-portable\\lib\\site-packages']
+15:38:12.397 [MainThread] INFO    thonny: sys.flags: sys.flags(debug=0, inspect=0, interactive=0, optimize=0, dont_write_bytecode=0, no_user_site=1, no_site=0, ignore_environment=1, verbose=0, bytes_warning=0, quiet=0, hash_randomization=1, isolated=1, dev_mode=False, utf8_mode=0, warn_default_encoding=0, int_max_str_digits=-1)
+15:38:13.052 [MainThread] INFO    thonny.workbench: Starting Workbench
+15:38:13.800 [MainThread] INFO    thonny.workbench: Creating runner
+15:38:13.827 [MainThread] INFO    thonny.workbench: Start loading plugins
+15:38:14.893 [MainThread] INFO    thonny.workbench: Done loading plugins
+15:38:15.052 [MainThread] INFO    thonny.workbench: Opening views
+15:38:15.367 [MainThread] INFO    thonny.plugins.cpython_frontend.cp_front: Creating LocalCPythonProxy
+15:38:15.373 [MainThread] INFO    thonny.running: Starting the backend: ['C:\\Users\\LENOVO\\Desktop\\newtech-python\\thonny-4.1.7-windows-portable\\python.exe', '-u', '-B', 'C:\\Users\\LENOVO\\Desktop\\newtech-python\\thonny-4.1.7-windows-portable\\lib\\site-packages\\thonny\\plugins\\cpython_backend\\cp_launcher.py', 'C:\\poubelle_iot', "{'run.warn_module_shadowing': True}"] C:\poubelle_iot
+15:38:19.717 [MainThread] INFO    thonny.ui_utils: Parent y: -11, rooty: 64, vrooty: 0
+15:38:19.717 [MainThread] INFO    thonny.ui_utils: Placing .!configurationdialog with geometry +797+345
+15:38:26.479 [MainThread] INFO    thonny.plugins.micropython.mp_front: Listing serial ports
+15:38:29.546 [MainThread] INFO    thonny.running: Killing backend process
+15:38:29.546 [MainThread] INFO    thonny.shell: BaseShellText._on_backend_terminated
+15:38:29.560 [Thread-2 (_listen_stdout)] INFO    thonny.running: Reader got EOF
+15:38:29.616 [MainThread] INFO    thonny.running: Starting the backend: ['C:\\Users\\LENOVO\\Desktop\\newtech-python\\thonny-4.1.7-windows-portable\\python.exe', '-s', '-u', '-B', 'C:\\Users\\LENOVO\\Desktop\\newtech-python\\thonny-4.1.7-windows-portable\\lib\\site-packages\\thonny\\plugins\\esp\\esp_back.py', "{'clean': False, 'port': 'COM3', 'dtr': None, 'rts': None, 'submit_mode': None, 'interrupt_on_connect': True, 'write_block_size': None, 'write_block_delay': None, 'proxy_class': 'ESP32Proxy', 'sync_time': True, 'validate_time': False, 'local_rtc': True}"] C:\poubelle_iot
+15:38:29.798 [MainThread] INFO    thonny.shell: BaseShellText.restart(False)
+15:38:29.830 [MainThread] INFO    thonny.plugins.micropython.mp_front: Listing serial ports
+15:38:31.225 [MainThread] INFO    thonny.plugins.micropython.mp_front: Listing serial ports
+15:38:37.810 [MainThread] INFO    thonny.plugins.micropython.mp_front: Listing serial ports
+15:38:37.922 [MainThread] INFO    thonny.ui_utils: Parent y: -11, rooty: 64, vrooty: 0
+15:38:37.922 [MainThread] INFO    thonny.ui_utils: Placing .!configurationdialog2 with geometry +797+336
+15:38:39.320 [Thread-6 (_download_variants)] INFO    thonny.plugins.micropython.base_flashing_dialog: Downloading 'https://raw.githubusercontent.com/thonny/thonny/master/data/micropython-variants-esptool.json'
+15:38:39.356 [MainThread] INFO    thonny.ui_utils: Parent y: 336, rooty: 381, vrooty: 0
+15:38:39.356 [MainThread] INFO    thonny.ui_utils: Placing .!configurationdialog2.!espflashingdialog with geometry +871+419
+15:38:39.869 [Thread-6 (_download_variants)] INFO    thonny.plugins.micropython.base_flashing_dialog: Got 46 variants
+15:38:39.869 [Thread-6 (_download_variants)] INFO    thonny.plugins.micropython.base_flashing_dialog: Downloading 'https://micropython.org/download/ARDUINO_NANO_ESP32'
+15:38:59.124 [MainThread] INFO    thonny.running: Killing backend process
+15:38:59.139 [Thread-4 (_listen_stdout)] INFO    thonny.running: Reader got EOF
+15:38:59.234 [MainThread] INFO    thonny.shell: BaseShellText._on_backend_terminated
+15:38:59.250 [MainThread] INFO    thonny.running: Starting the backend: ['C:\\Users\\LENOVO\\Desktop\\newtech-python\\thonny-4.1.7-windows-portable\\python.exe', '-s', '-u', '-B', 'C:\\Users\\LENOVO\\Desktop\\newtech-python\\thonny-4.1.7-windows-portable\\lib\\site-packages\\thonny\\plugins\\esp\\esp_back.py', "{'clean': False, 'port': 'COM3', 'dtr': None, 'rts': None, 'submit_mode': None, 'interrupt_on_connect': True, 'write_block_size': None, 'write_block_delay': None, 'proxy_class': 'ESP32Proxy', 'sync_time': True, 'validate_time': False, 'local_rtc': True}"] C:\poubelle_iot
+15:38:59.406 [MainThread] INFO    thonny.shell: BaseShellText.restart(False)
+15:38:59.456 [MainThread] INFO    thonny.plugins.micropython.mp_front: Listing serial ports
+15:39:00.469 [MainThread] INFO    thonny.plugins.micropython.mp_front: Listing serial ports
+15:40:19.708 [Thread-6 (_download_variants)] ERROR   thonny.plugins.micropython.base_flashing_dialog: Could not download variants info from https://raw.githubusercontent.com/thonny/thonny/master/data/micropython-variants-esptool.json
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\Desktop\newtech-python\thonny-4.1.7-windows-portable\lib\site-packages\thonny\plugins\micropython\base_flashing_dialog.py", line 371, in _tweak_variants
+    with urllib.request.urlopen(req) as fp:
+  File "C:\Users\LENOVO\Desktop\newtech-python\thonny-4.1.7-windows-portable\lib\urllib\request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\LENOVO\Desktop\newtech-python\thonny-4.1.7-windows-portable\lib\urllib\request.py", line 525, in open
+    response = meth(req, response)
+  File "C:\Users\LENOVO\Desktop\newtech-python\thonny-4.1.7-windows-portable\lib\urllib\request.py", line 634, in http_response
+    response = self.parent.error(
+  File "C:\Users\LENOVO\Desktop\newtech-python\thonny-4.1.7-windows-portable\lib\urllib\request.py", line 557, in error
+    result = self._call_chain(*args)
+  File "C:\Users\LENOVO\Desktop\newtech-python\thonny-4.1.7-windows-portable\lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+  File "C:\Users\LENOVO\Desktop\newtech-python\thonny-4.1.7-windows-portable\lib\urllib\request.py", line 749, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+  File "C:\Users\LENOVO\Desktop\newtech-python\thonny-4.1.7-windows-portable\lib\urllib\request.py", line 519, in open
+    response = self._open(req, data)
+  File "C:\Users\LENOVO\Desktop\newtech-python\thonny-4.1.7-windows-portable\lib\urllib\request.py", line 536, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\LENOVO\Desktop\newtech-python\thonny-4.1.7-windows-portable\lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+  File "C:\Users\LENOVO\Desktop\newtech-python\thonny-4.1.7-windows-portable\lib\urllib\request.py", line 1391, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\LENOVO\Desktop\newtech-python\thonny-4.1.7-windows-portable\lib\urllib\request.py", line 1352, in do_open
+    r = h.getresponse()
+  File "C:\Users\LENOVO\Desktop\newtech-python\thonny-4.1.7-windows-portable\lib\http\client.py", line 1375, in getresponse
+    response.begin()
+  File "C:\Users\LENOVO\Desktop\newtech-python\thonny-4.1.7-windows-portable\lib\http\client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\LENOVO\Desktop\newtech-python\thonny-4.1.7-windows-portable\lib\http\client.py", line 287, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+15:40:19.764 [Thread-6 (_download_variants)] ERROR   thonny.plugins.micropython.base_flashing_dialog: Could not download variants info from https://raw.githubusercontent.com/thonny/thonny/master/data/micropython-variants-esptool.json
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\Desktop\newtech-python\thonny-4.1.7-windows-portable\lib\site-packages\thonny\plugins\micropython\base_flashing_dialog.py", line 327, in _download_variants
+    self._tweak_variants(variants)
+  File "C:\Users\LENOVO\Desktop\newtech-python\thonny-4.1.7-windows-portable\lib\site-packages\thonny\plugins\micropython\base_flashing_dialog.py", line 388, in _tweak_variants
+    self.grid_progress_widgets()
+  File "C:\Users\LENOVO\Desktop\newtech-python\thonny-4.1.7-windows-portable\lib\site-packages\thonny\workdlg.py", line 275, in grid_progress_widgets
+    self._progress_bar.grid(row=1, column=1, sticky="w", padx=(padding, intpad), pady=padding)
+  File "C:\Users\LENOVO\Desktop\newtech-python\thonny-4.1.7-windows-portable\lib\tkinter\__init__.py", line 2522, in grid_configure
+    self.tk.call(
+_tkinter.TclError: bad window path name ".!configurationdialog2.!espflashingdialog.!frame3.!progressbar"
+15:41:02.831 [MainThread] INFO    thonny.ui_utils: Parent y: -11, rooty: 64, vrooty: 0
+15:41:02.831 [MainThread] INFO    thonny.ui_utils: Placing .!nodechoicedialog with geometry +1105+606
+15:41:21.122 [MainThread] INFO    thonny.ui_utils: Parent y: -11, rooty: 64, vrooty: 0
+15:41:21.122 [MainThread] INFO    thonny.ui_utils: Placing .!backendfiledialog with geometry +833+263
+15:41:25.581 [MainThread] INFO    thonny.ui_utils: Parent y: -11, rooty: 64, vrooty: 0
+15:41:25.581 [MainThread] INFO    thonny.ui_utils: Placing .!nodechoicedialog2 with geometry +1105+606
